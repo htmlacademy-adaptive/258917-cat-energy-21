@@ -1,0 +1,20 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 39px;
+}
+
+.slider__slides {
+  margin-bottom: 35px;
+}
+
+.slider__controls {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider__label {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}

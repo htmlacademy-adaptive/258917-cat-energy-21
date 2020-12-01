@@ -1,0 +1,23 @@
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  &--footer {
+    padding-top: 39px;
+    padding-bottom: 32px;
+  }
+}
+
+.logo__image {
+  display: block;
+  width: 101px;
+  height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &--footer {
+    width: 128px;
+    height: 24px;
+  }
+}

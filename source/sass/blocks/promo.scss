@@ -1,0 +1,32 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  margin-bottom: 22px;
+  padding-top: 27px;
+  background:
+    url("../img/promo-bg-cup-mobile.png") no-repeat 50% 167px,
+    url("../img/promo-bg-mobile.jpg") no-repeat top center;
+}
+
+.promo__title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  font-family: $primary-font-family;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 400;
+  color: $tertiary-font-color;
+}
+
+.promo__slogan {
+  font-family: $primary-font-family;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $tertiary-font-color;
+}

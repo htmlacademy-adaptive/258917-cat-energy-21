@@ -1,0 +1,62 @@
+.instruction {
+  padding-top: 27px;
+  padding-right: 20px;
+  padding-bottom: 42px;
+  padding-left: 20px;
+}
+
+.instruction__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: $primary-font-family;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.instruction__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.instruction__item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 80px;
+  font-family: $secondary-font-family;
+  font-size: 14px;
+  line-height: 18px;
+  color: $secondary-font-color;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+  }
+
+  &:nth-child(1)::before {
+    background: url("../img/instruction-icon-1.svg") no-repeat 0 0;
+  }
+
+  &:nth-child(2)::before {
+    background: url("../img/instruction-icon-2.svg") no-repeat 0 0;
+  }
+
+  &:nth-child(3)::before {
+    background: url("../img/instruction-icon-3.svg") no-repeat 0 0;
+  }
+
+  &:nth-child(4)::before {
+    background: url("../img/instruction-icon-4.svg") no-repeat 0 0;
+  }
+}

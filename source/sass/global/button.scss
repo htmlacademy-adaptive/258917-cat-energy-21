@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  font-family: $primary-font-family;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $tertiary-font-color;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #68b738;
+
+  &--promo {
+    width: 280px;
+    margin: auto auto 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
