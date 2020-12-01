@@ -1,0 +1,23 @@
+.copyright {
+  padding-top: 28px;
+  padding-bottom: 32px;
+}
+
+.copyright__link {
+  position: relative;
+  display: block;
+  font-family: $secondary-font-family;
+  font-size: 16px;
+  line-height: 18px;
+  color: $secondary-font-color;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 0;
+    width: 27px;
+    height: 34px;
+    background: url("../img/html-academy.svg") no-repeat 0 0;
+  }
+}
