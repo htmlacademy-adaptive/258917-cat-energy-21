@@ -1,0 +1,18 @@
+.gifts {
+  margin: 0 auto 35px auto;
+  padding-top: 186px;
+  width: 280px;
+  height: 289px;
+  background:
+    url("../img/gift-icon.svg") no-repeat center 64px,
+    #68b738 url("../img/gift-bg-mobile.jpg") no-repeat 0 0;
+}
+
+.gifts__description {
+  margin: 0;
+  font-family: $secondary-font-family;
+  font-size: 16px;
+  line-height: 20px;
+  color: $tertiary-font-color;
+  text-align: center;
+}
